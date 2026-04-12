@@ -2,6 +2,9 @@ import task1
 import task2
 
 import task4
+import task5
+import task6
+import task7
 
 def print_menu():
     print(
@@ -42,6 +45,12 @@ while 1:
         task2.run()
     elif user_choice=='4':
         task4.run()
+    elif user_choice=='5':
+        task5.run()
+    elif user_choice=='6':
+        task6.run()
+    elif user_choice=='7':
+        task7.run()
     elif user_choice == '0':
         print("Bye!")
         break
