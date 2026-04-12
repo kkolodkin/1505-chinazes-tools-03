@@ -1,6 +1,7 @@
-import test
+import task1
 import task2
 
+import task4
 
 def print_menu():
     print(
@@ -8,8 +9,22 @@ def print_menu():
 ============================
 Menu options
 
-1. Run Test Module
-2. task2.py
+1. Run task1.py
+2. Run task2.py
+3. Run task3.py
+4. Run task4.py
+5. Run task5.py
+6. Run task6.py
+7. Run task7.py
+8. Run task8.py
+9. Run task9.py
+10. Run task10.py
+11. Run task11.py
+12. Run task12.py
+13. Run task13.py
+14. Run task14.py
+
+
 0. Exit
 ============================
 ''')
@@ -22,9 +37,11 @@ while 1:
     print()
     
     if user_choice == '1':
-        test.run()
+        task1.run()
     elif user_choice=='2':
         task2.run()
+    elif user_choice=='4':
+        task4.run()
     elif user_choice == '0':
         print("Bye!")
         break
