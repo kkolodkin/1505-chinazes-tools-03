@@ -1,18 +1,6 @@
 import test
-import task1.py
-import task2.py
-import task3.py
-import task4.py
-import task5.py
-import task6.py
-import task7.py
-import task8.py
-import task9.py
-import task10.py
-import task11.py
-import task12.py
-import task13.py
-import task14.py
+import task2
+
 
 def print_menu():
     print(
